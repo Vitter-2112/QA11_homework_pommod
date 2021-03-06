@@ -13,8 +13,8 @@ public class LoginPageTests extends TestBase {
         new HomePage(driver)
                 .openBookstorePage()
                 .goToLoginPage()
-                .loginpositive("neuer", "Neuer1234!")
-                .verifyUserName("neuer")
+                .loginpositive("vitter", "Ulanbator2020!")
+                .verifyUserName("vitter")
                 .logout();
 
     }
